@@ -21,15 +21,21 @@
     <ClInclude Include="SRC\Engine\Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SRC\GameEngine.h">
+    <ClInclude Include="SRC\Engine\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SRC\Engine\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SRC\GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SRC\Engine\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\Engine\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
